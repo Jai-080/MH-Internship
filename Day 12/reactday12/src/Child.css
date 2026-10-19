@@ -1,0 +1,28 @@
+
+.child-container {
+  background: #263449;
+  padding: 24px 18px;
+  border-radius: 14px;
+  border: 1px solid #3f536b;
+  margin: 0 0 26px;
+}
+
+.child-container h2 {
+  color: #5eead4;
+  font-size: 23px;
+  margin: 0 0 10px;
+}
+
+.child-container p {
+  color: #cbd5e1;
+  font-size: 15px;
+  margin-bottom: 18px;
+}
+
+.child-container button {
+  background: #0d9488;
+}
+
+.child-container button:hover {
+  background: #0f766e;
+}
