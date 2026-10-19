@@ -1,0 +1,27 @@
+
+.container {
+  width: 70%;
+  margin: 30px auto;
+  padding: 25px;
+  border: 1px solid #444;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.heading {
+  color: #646cff;
+}
+
+.details {
+  font-size: 18px;
+  color: #888;
+}
+
+.subject-list {
+  display: table;
+  margin: 0 auto;
+  padding-left: 0;
+  list-style-position: inside;
+  text-align: left;
+  line-height: 1.8;
+}
