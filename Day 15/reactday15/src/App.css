@@ -1,0 +1,36 @@
+.app {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  border-radius: 12px;
+}
+
+h1 {
+  color: #263449;
+}
+
+ul {
+  padding-left: 24px;
+}
+
+li {
+  background: white;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+button {
+  padding: 12px 20px;
+  background: #263449;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #405574;
+}
