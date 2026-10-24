@@ -2,7 +2,7 @@
 import { useState } from "react";
 import "./App.css";
 
-// Components for Task 1
+
 function WelcomeMessage() {
   return <h3>Welcome back!</h3>;
 }
@@ -12,7 +12,7 @@ function LoginMessage() {
 }
 
 function App() {
-  // Task 1: if statement
+  
   let isLoggedIn = true;
   let userComponent;
 
@@ -22,10 +22,10 @@ function App() {
     userComponent = <LoginMessage />;
   }
 
-  // Task 2: Logical &&
+  
   const [showMessage, setShowMessage] = useState(false);
 
-  // Task 3: Ternary operator
+  
   const [isSubscribed, setIsSubscribed] = useState(false);
 
   return (

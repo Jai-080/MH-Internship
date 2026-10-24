@@ -1,3 +1,4 @@
+
 "use strict";
 let studentName = "Alex";
 let lessonCount = 8;
