@@ -59,7 +59,7 @@ function App() {
     <div className="container">
       <h1>Day 16: React Forms</h1>
 
-      {/* TASK 1: Controlled Text Input */}
+      
       <section>
         <h2>Task 1</h2>
 
@@ -75,7 +75,7 @@ function App() {
         <p>Your name is: {name}</p>
       </section>
 
-      {/* TASK 2 and TASK 3 */}
+      
       <section>
         <h2>Task 2 & 3</h2>
 
