@@ -2,10 +2,10 @@
 import { useState } from "react";
 import "./App.css";
 function App() {
-  // Task 1: Controlled text input
+  //Controlled text input
   const [name, setName] = useState("");
 
-  // Task 2: Multiple inputs managed by one state object
+  //Multiple inputs managed by one state object
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -13,11 +13,11 @@ function App() {
     course: "",
   });
 
-  // Task 3: Form validation
+  //Form validation
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
 
-  // Handle changes to Task 2 inputs
+  //Handle changes to Task 2 inputs
   function handleChange(event) {
     const { name, value, type, checked } = event.target;
 
@@ -27,7 +27,7 @@ function App() {
     }));
   }
 
-  // Handle form submission
+  //Handle form submission
   function handleSubmit(event) {
     event.preventDefault();
 
